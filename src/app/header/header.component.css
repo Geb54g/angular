@@ -1,0 +1,18 @@
+.nav{
+    background-color: antiquewhite;
+    padding-right: 1rem;
+}
+li{
+    display: inline-block;
+    margin: 2rem;
+    font-size:large;
+    border: solid antiquewhite;
+}
+li{
+    box-shadow: 2px 4px 2px;
+    text-shadow: 2px 2px 2px;
+}
+li:hover{
+    background-color: red;
+    border: solid rgba(64, 9, 56, 0.297);
+}
