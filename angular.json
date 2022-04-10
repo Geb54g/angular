@@ -3,7 +3,11 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
+<<<<<<< HEAD
     "quotes": {
+=======
+    "quote": {
+>>>>>>> ffd29a6b39715cd689006630789cc84a80e792a0
       "projectType": "application",
       "schematics": {
         "@schematics/angular:application": {
@@ -17,7 +21,11 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+<<<<<<< HEAD
             "outputPath": "dist/quotes",
+=======
+            "outputPath": "dist/quote",
+>>>>>>> ffd29a6b39715cd689006630789cc84a80e792a0
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -68,10 +76,17 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
+<<<<<<< HEAD
               "browserTarget": "quotes:build:production"
             },
             "development": {
               "browserTarget": "quotes:build:development"
+=======
+              "browserTarget": "quote:build:production"
+            },
+            "development": {
+              "browserTarget": "quote:build:development"
+>>>>>>> ffd29a6b39715cd689006630789cc84a80e792a0
             }
           },
           "defaultConfiguration": "development"
@@ -79,7 +94,11 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
+<<<<<<< HEAD
             "browserTarget": "quotes:build"
+=======
+            "browserTarget": "quote:build"
+>>>>>>> ffd29a6b39715cd689006630789cc84a80e792a0
           }
         },
         "test": {
@@ -102,5 +121,9 @@
       }
     }
   },
+<<<<<<< HEAD
   "defaultProject": "quotes"
+=======
+  "defaultProject": "quote"
+>>>>>>> ffd29a6b39715cd689006630789cc84a80e792a0
 }

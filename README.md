@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Quotes
+=======
+# Quote
+>>>>>>> ffd29a6b39715cd689006630789cc84a80e792a0
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.0.
 
